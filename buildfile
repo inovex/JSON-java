@@ -1,4 +1,5 @@
 repositories.remote << 'http://www.ibiblio.org/maven2'
+repositories.release_to = 'file:///home/ruben/workspace/rjenster-mvn-repo/releases'
 
 require 'time'
 
