@@ -1,5 +1,5 @@
 repositories.remote << 'http://www.ibiblio.org/maven2'
-repositories.release_to = 'file:///home/ruben/workspace/rjenster-mvn-repo/releases'
+repositories.release_to = File.readlines('release_to')[0]
 
 require 'time'
 
